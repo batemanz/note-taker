@@ -1,6 +1,16 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "title": "Better work ",
+    "text": "if this doesn't work then IDK and if it does well I also don't know soo...\n",
+    "id": 2
+  },
+  {
+    "title": "This is another note",
+    "text": "Gotta test the note again just in case, I mean you never know.",
+    "id": 3
+  }
 ]
