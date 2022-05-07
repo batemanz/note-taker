@@ -1,16 +1,1 @@
-[
-  {
-    "title": "Test Title",
-    "text": "Test text"
-  },
-  {
-    "title": "Better work ",
-    "text": "if this doesn't work then IDK and if it does well I also don't know soo...\n",
-    "id": 2
-  },
-  {
-    "title": "This is another note",
-    "text": "Gotta test the note again just in case, I mean you never know.",
-    "id": 3
-  }
-]
+[{"title":"Test Title","text":"Test text"},{"title":"This is just a test","text":"so lets test it and hope it works","id":"db3dd8e6-fd5e-4acd-b593-29c82d56735d"},{"title":"another note","text":"this is a second test of notes","id":"d21e93be-ee68-4800-b77e-c9cbaa4a49d0"}]
