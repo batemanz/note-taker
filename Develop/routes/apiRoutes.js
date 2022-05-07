@@ -39,7 +39,7 @@ noteRoute.post("/notes", (req, res) => {
         const parsedNotes = JSON.parse(noteData);
         parsedNotes.push(noteNew);
 
-        fs.writeFile("./db/db.json", JSON.stringify(parsedNotes), (err) =>
+        fs.writeFile("./db/db.json", JSON.stringify(parsedNotes, null, 2), (err) =>
           err
             ? console.error(err)
             : console.info(`\nData has been written to ${"./db/db.json"}`)
@@ -53,7 +53,7 @@ noteRoute.post("/notes", (req, res) => {
 });
 
 noteRoute.delete("/notes/:id", (req, res) => {
-    
+
 });
 
 module.exports = noteRoute;
