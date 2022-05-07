@@ -18,13 +18,7 @@ noteRoute.get("/notes", (req, res) => {
 
 noteRoute.post("/notes", (req, res) => {
   const { title, text } = req.body;
-  // get new notes --request
-  // use ID
-  // read existing db.json
-  // parse the data
-  // write to the file
-  // fs.writefile will replace anything previous
-  //
+
   if (req.body) {
     const noteNew = {
       title,
